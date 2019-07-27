@@ -9,22 +9,22 @@ import { svg as _svg } from '../svg';
 
 import { line } from './line';
 
-import  { adx } from './adx';
-import  { aroon } from './aroon';
-import  { atrtrailingstop } from './atrtrailingstop';
-import  { bollinger } from './bollinger';
-import  { crosshair } from './crosshair';
-import  { ichimoku } from './ichimoku';
-import  { macd } from './macd';
-import  { ohlc } from './ohlc';
-import  { rsi } from './rsi';
-import  { stochastic } from './stochastic';
-import  { supstance } from './supstance';
-import  { tick } from './tick';
-import  { tradearrow } from './tradearrow';
-import  { trendline } from './trendline';
-import  { williams } from './williams';
-import  { volume } from './volume';
+import { adx } from './adx';
+import { aroon } from './aroon';
+import { atrtrailingstop } from './atrtrailingstop';
+import { bollinger } from './bollinger';
+import { crosshair } from './crosshair';
+import { ichimoku } from './ichimoku';
+import { macd } from './macd';
+import { ohlc } from './ohlc';
+import { rsi } from './rsi';
+import { stochastic } from './stochastic';
+import { supstance } from './supstance';
+import { tick } from './tick';
+import { tradearrow } from './tradearrow';
+import { trendline } from './trendline';
+import { williams } from './williams';
+import { volume } from './volume';
 
 import * as d3 from 'd3';
 function d3_event() {

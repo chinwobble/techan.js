@@ -26,38 +26,20 @@
   },
   "license": "MIT",
   "dependencies": {
-    "d3": "~4.2.6"
+    "d3": "4.2.8"
   },
   "devDependencies": {
-    "bower": "~1.7.9",
-    "grunt": "~1.0.1",
-    "grunt-banner": "~0.6.0",
-    "grunt-browserify": "~5.0.0",
-    "grunt-bump": "0.8.0",
-    "grunt-cli": "~1.2.0",
-    "grunt-contrib-clean": "~1.0.0",
-    "grunt-contrib-compress": "~1.3.0",
-    "grunt-contrib-connect": "~1.0.2",
-    "grunt-contrib-copy": "~1.0.0",
-    "grunt-contrib-jshint": "~1.0.0",
-    "grunt-contrib-uglify": "~2.0.0",
-    "grunt-contrib-watch": "~1.0.0",
-    "grunt-jscs": "~3.0.1",
-    "grunt-jsonlint": "~1.1.0",
-    "grunt-karma": "~2.0.0",
-    "grunt-newer": "~1.2.0",
-    "grunt-replace": "~1.0.1",
-    "grunt-watchify": "~0.1.0",
     "jasmine-core": "~2.4.1",
     "karma": "^1.2.0",
     "karma-jasmine": "~1.0.2",
     "karma-phantomjs-launcher": "~1.0.1",
     "load-grunt-tasks": "~3.5.2",
-    "phantomjs": "^2.1.7"
+    "phantomjs": "^2.1.7",
+    "rollup": "^1.17.0",
+    "rollup-plugin-terser": "^5.1.1",
+    "rollup-plugin-typescript2": "^0.22.1",
+    "typescript": "^3.5.3",
+    "@types/d3": "4.13.2"
   },
-  "scripts": {
-    "watch": "grunt serve",
-    "start": "grunt serve",
-    "test": "grunt"
-  }
+  "scripts": {}
 }
